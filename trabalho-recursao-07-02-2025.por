@@ -1,4 +1,5 @@
-programa {
+programa
+ {
 	inclua biblioteca Util --> u
 	inclua biblioteca Texto --> t
 	inclua biblioteca Tipos --> tipos
@@ -48,7 +49,8 @@ programa {
 		retorne maiorNumeroNoVetor(vetor, maior, index+1, falso)
 	}
 	
-	funcao inicio() {
+	funcao inicio()
+ {
 		inteiro vetor[5]
 		escreva("Digite 5 valores para o vetor: \n")
 		para (inteiro i = 0; i < u.numero_elementos(vetor); i++) {
